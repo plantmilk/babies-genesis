@@ -34,11 +34,14 @@
     "license": "UNLICENSED",
     "private": true,
     "scripts": {
-        "predeploy": "yarn run build",
+        "predeploy": "yarn build",
         "deploy": "gh-pages -d build",
         "dev-server": "encore dev-server",
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
+    },
+    "dependencies": {
+        "gh-pages": "^3.2.3"
     }
 }
