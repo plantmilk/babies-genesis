@@ -36,6 +36,7 @@
     "scripts": {
         "predeploy": "yarn build",
         "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
         "dev-server": "encore dev-server",
         "dev": "encore dev",
         "watch": "encore dev --watch",
